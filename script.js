@@ -44,14 +44,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Carregar planetas dinamicamente
     const planets = [
-        { name: "Mercúrio", image: "assets/img1.jpeg", desc: "O planeta mais próximo do Sol" },
-        { name: "Vênus", image: "assets/img2.jpeg", desc: "Planeta mais quente do sistema solar" },
-        { name: "Terra", image: "assets/img3.jpeg", desc: "Nosso lar no universo" },
-        { name: "Marte", image: "assets/img4.jpeg", desc: "O planeta vermelho" },
-        { name: "Júpiter", image: "assets/img5.jpeg", desc: "O gigante gasoso" },
-        { name: "Saturno", image: "assets/img6.jpeg", desc: "Rei dos anéis" },
-        { name: "Urano", image: "assets/img7.jpeg", desc: "O planeta inclinado" },
-        { name: "Netuno", image: "assets/img8.jpeg", desc: "O planeta mais ventoso" }
+        { name: "Mercúrio", image: "img1.jpeg", desc: "O planeta mais próximo do Sol" },
+        { name: "Vênus", image: "img2.jpeg", desc: "Planeta mais quente do sistema solar" },
+        { name: "Terra", image: "img3.jpeg", desc: "Nosso lar no universo" },
+        { name: "Marte", image: "img4.jpeg", desc: "O planeta vermelho" },
+        { name: "Júpiter", image: "img5.jpeg", desc: "O gigante gasoso" },
+        { name: "Saturno", image: "img6.jpeg", desc: "Rei dos anéis" },
+        { name: "Urano", image: "img7.jpeg", desc: "O planeta inclinado" },
+        { name: "Netuno", image: "img8.jpeg", desc: "O planeta mais ventoso" }
     ];
 
     const planetGrid = document.querySelector('.planet-grid');
